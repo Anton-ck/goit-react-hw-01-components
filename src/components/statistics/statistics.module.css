@@ -1,0 +1,57 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin: 20px auto;
+  /* padding: 0 0 5px 0; */
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  margin: 15px auto;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: lightgrey;
+}
+
+.stat__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  padding: 12px;
+}
+
+.item:nth-child(odd) {
+  background-color: #f08080;
+}
+.item:nth-child(even) {
+  background-color: #e0ffff;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}

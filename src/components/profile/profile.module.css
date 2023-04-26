@@ -1,7 +1,7 @@
 .profile {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 300px;
   border-radius: 10px;
   margin: 20px auto;
   padding: 0 0 5px 0;
@@ -12,15 +12,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 350px;
   background-color: #fff;
-  margin: 20px auto;
   padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .avatar {
   display: block;
-  padding: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 100px;
@@ -54,7 +55,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 5px 5px 25px 5px;
+  padding: 5px;
   gap: 5px;
   margin-bottom: 0;
 }
@@ -63,7 +64,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 15px; */
 }
 
 .quantity {
