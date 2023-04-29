@@ -1,0 +1,7 @@
+.trstyle {
+  background-color: lemonchiffon;
+}
+
+.trstyle:nth-child(2n) {
+  background-color: rgb(193, 184, 186);
+}
