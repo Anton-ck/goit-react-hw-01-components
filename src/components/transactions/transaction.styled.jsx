@@ -13,6 +13,9 @@ export const THeadStyle = styled.thead`
   background-color: lightblue;
 `;
 
-
-
-
+export const TrStyle = styled.tr`
+  background-color: lemonchiffon;
+  &:nth-of-type(2n) {
+    color: black;
+  }
+`;

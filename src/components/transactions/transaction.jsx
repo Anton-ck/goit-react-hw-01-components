@@ -1,4 +1,4 @@
-import { TableStyle, THeadStyle } from './transaction.styled';
+import { TableStyle, THeadStyle, TrStyle } from './transaction.styled';
 import css from './transactions.module.css';
 import PropTypes from 'prop-types';
 
@@ -12,13 +12,14 @@ export const TransactionHistory = ({ items }) => {
           <th>Currency</th>
         </tr>
       </THeadStyle>
-      {items.map(({id, type, amount, currency }) => (
+      {items.map(({ id, type, amount, currency }) => (
         <tbody key={id} className={css.trstyle}>
-          <tr>
+        {/* // <tbody key={id}> */}
+          {/* <TrStyle> */}
             <td>{type}</td>
             <td>{amount}</td>
             <td>{currency}</td>
-          </tr>
+          {/* </TrStyle> */}
         </tbody>
       ))}
     </TableStyle>
