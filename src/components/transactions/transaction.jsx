@@ -1,4 +1,4 @@
-import { TableStyle, THeadStyle, TrStyle } from './transaction.styled';
+import { TableStyle, THeadStyle} from './transaction.styled';
 import css from './transactions.module.css';
 import PropTypes from 'prop-types';
 
